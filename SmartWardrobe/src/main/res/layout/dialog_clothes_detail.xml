@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="320dp"
+    android:layout_height="480dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:elevation="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_background"
+        android:orientation="vertical">
+        <!-- 상단툴바   -->
+        <RelativeLayout
+            android:id="@+id/dialog_header_container"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dialog_header_height"
+            android:background="@color/colorPrimary"
+            android:gravity="center_vertical">
+
+            <Button
+                android:id="@+id/dialog_clothes_back_btn"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="16dp"
+                android:background="@drawable/ic_all_back"
+                android:backgroundTint="@android:color/white" />
+
+            <Button
+                android:id="@+id/dialog_clothes_mod_btn"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginRight="8dp"
+                android:layout_toLeftOf="@+id/dialog_clothes_del_btn"
+                android:background="@drawable/ic_all_mod"
+                android:backgroundTint="@android:color/white" />
+
+            <Button
+                android:id="@+id/dialog_clothes_del_btn"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="16dp"
+                android:background="@drawable/ic_all_delete"
+                android:backgroundTint="@android:color/white" />
+        </RelativeLayout>
+
+        <!--컨텐츠-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="8dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+                android:layout_gravity="center"
+                android:padding="8dp"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/outline_layout"
+                    android:padding="8dp">
+                    <ImageView
+                        android:id="@+id/item_clothes_img_iv"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:background="@drawable/ic_all_plus"
+                        android:backgroundTint="@color/colorPrimary"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2.5"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:background="@drawable/outline_layout">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="8dp"
+                    android:weightSum="5">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2"
+                        android:text="@string/clothes_item_type"
+                        android:textSize="@dimen/dialog_text_size"
+                        android:textAlignment="center"/>
+
+                    <TextView
+                        android:id="@+id/item_clothes_type_tv"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:text="@string/clothes_item_type"
+                        android:textSize="@dimen/dialog_text_size"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="5"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:text="@string/clothes_item_color"
+                        android:textSize="@dimen/dialog_text_size"
+                        android:textAlignment="center"/>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:orientation="horizontal"
+                        android:gravity="center">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="2dp"
+                            android:gravity="center"
+                            android:background="@drawable/outline_layout_gray_thin"
+                            >
+                            <ImageView
+                                android:id="@+id/item_clothes_color_iv"
+                                android:layout_width="16dp"
+                                android:layout_height="16dp"
+                                android:clickable="true"
+                                android:background="@android:color/black" />
+                        </LinearLayout>
+                        <TextView
+                            android:id="@+id/item_clothes_color_tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="8dp"
+                            android:text="색이름"
+                            android:textSize="@dimen/dialog_text_size"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/black"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center_vertical"
+                    android:weightSum="5">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:text="@string/clothes_item_existence"
+                        android:textSize="@dimen/dialog_text_size"
+                        android:textAlignment="center"/>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:id="@+id/item_clothes_isExist_iv"
+                            android:layout_width="16dp"
+                            android:layout_height="16dp"
+                            android:background="@drawable/ic_all_circle"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="8dp"
+                    android:weightSum="5">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2"
+                        android:text="@string/clothes_item_count"
+                        android:textSize="@dimen/dialog_text_size"
+                        android:textAlignment="center"/>
+
+                    <TextView
+                        android:id="@+id/item_clothes_count_tv"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:text="@string/clothes_item_count"
+                        android:textSize="@dimen/dialog_text_size"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="8dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2"
+                        android:text="@string/clothes_item_temperature"
+                        android:textSize="@dimen/dialog_text_size"
+                        android:gravity="center_vertical"
+                        android:textAlignment="center"/>
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:orientation="horizontal">
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:gravity="center"
+                            android:layout_toLeftOf="@id/center_point2">
+                            <TextView
+                                android:id="@+id/item_clothes_tem_season_min"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@android:color/black"
+                                android:textSize="14dp"
+                                android:text="날씨1"/>
+                            <TextView
+                                android:id="@+id/item_clothes_tem_min"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="12dp"
+                                android:text="온도1"/>
+                        </LinearLayout>
+                        <TextView
+                            android:id="@+id/center_point2"
+                            android:layout_width="8dp"
+                            android:layout_height="wrap_content"
+                            android:text="~"
+                            android:layout_centerInParent="true"
+                            android:layout_marginHorizontal="4dp"
+                            android:textColor="@android:color/black"
+                            android:textSize="16dp"
+                            android:background="@android:color/transparent"/>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:gravity="center"
+                            android:layout_toRightOf="@id/center_point2">
+                            <TextView
+                                android:id="@+id/item_clothes_tem_season_max"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="날씨2"
+                                android:textSize="14dp"
+                                android:textColor="@android:color/black"/>
+                            <TextView
+                                android:id="@+id/item_clothes_tem_max"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="12dp"
+                                android:text="온도2"/>
+                        </LinearLayout>
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</LinearLayout>

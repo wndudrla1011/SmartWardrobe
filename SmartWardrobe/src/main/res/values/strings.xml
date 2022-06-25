@@ -1,0 +1,174 @@
+<resources>
+    <string name="app_name">SmartWardrobe</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="clothes_item_type">종류</string>
+    <string name="clothes_item_color">색상</string>
+    <string name="clothes_item_temperature">적정 온도(℃)</string>
+    <string name="clothes_item_existence">존재여부</string>
+    <string name="clothes_item_count">입은 횟수</string>
+
+    <string name="dialog_clothes_detail">1</string>
+    <string name="dialog_clothes_modify">2</string>
+
+    <string name="main_todaycodi_title">오늘의 추천 코디셋</string>
+
+    <!-- 옷분류 -->
+    //외투
+    <string-array name="outer">
+        <item>가디건</item>
+        <item>조끼</item>
+        <item>남방</item>
+        <item>바람막이</item>
+        <item>후드집업</item>
+        <item>코트</item>
+        <item>자켓</item>
+        <item>점퍼</item>
+        <item>무스탕</item>
+        <item>패딩</item>
+        <item>야상</item>
+    </string-array>
+
+    <string-array name="cardigan">
+        <item>가디건</item>
+        <item>롱 가디건</item>
+    </string-array>
+
+    <string-array name="chokki">
+        <item>조끼</item>
+        <item>니트조끼</item>
+    </string-array>
+
+    <string-array name="nambang">
+        <item>남방</item>
+        <item>스트라이프 남방</item>
+        <item>청남방</item>
+        <item>체크 남방</item>
+    </string-array>
+
+    <string-array name="windbreaker">
+        <item>바람막이</item>
+    </string-array>
+
+    <string-array name="hoods">
+        <item>후드집업</item>
+    </string-array>
+
+    <string-array name="coat">
+        <item>트렌치 코트</item>
+        <item>코트</item>
+    </string-array>
+
+    <string-array name="jacket">
+        <item>청자켓</item>
+        <item>가죽자켓</item>
+        <item>면자켓</item>
+        <item>트랙자켓</item>
+        <item>블레이저</item>
+    </string-array>
+
+    <string-array name="jumper">
+        <item>야구점퍼</item>
+        <item>항공점퍼</item>
+        <item>블루종</item>
+    </string-array>
+
+    <string-array name="mustang">
+        <item>무스탕</item>
+    </string-array>
+
+    <string-array name="padding">
+        <item>패딩</item>
+        <item>패딩조끼</item>
+    </string-array>
+
+    <string-array name="yasang">
+        <item>야상</item>
+    </string-array>
+
+    //상의
+    <string-array name="top">
+        <item>T-shirts</item>
+        <item>맨투맨</item>
+        <item>니트/스웨터</item>
+        <item>폴라</item>
+        <item>셔츠</item>
+    </string-array>
+
+    <string-array name="t_shirts">
+        <item>반팔티</item>
+        <item>스프라이프 반팔티</item>
+        <item>반팔 카라티</item>
+        <item>칠부티</item>
+        <item>스트라이프 칠부</item>
+        <item>긴팔티</item>
+        <item>스트라이프 긴팔티</item>
+        <item>후드티</item>
+    </string-array>
+
+    <string-array name="mtom">
+        <item>맨투맨</item>
+    </string-array>
+
+    <string-array name="knit_sweater">
+        <item>니트/스웨터</item>
+    </string-array>
+    
+    <string-array name="pola">
+        <item>폴라</item>
+        <item>폴라니트</item>
+    </string-array>
+    
+    <string-array name="shirts">
+        <item>셔츠</item>
+        <item>스트라이프 셔츠</item>
+        <item>체크셔츠</item>
+        <item>청셔츠</item>
+        <item>반팔셔츠</item>
+        <item>반팔 스트라이프 셔츠</item>
+        <item>반팔 체크 셔츠</item>
+    </string-array>
+
+    //하의
+    <string-array name="bottom">
+        <item>면바지</item>
+        <item>청바지</item>
+        <item>슬랙스</item>
+        <item>린넨바지</item>
+    </string-array>
+    
+    <string-array name="cotton">
+        <item>루즈핏 면바지</item>
+        <item>기본핏 면바지</item>
+        <item>면반바지</item>
+    </string-array>
+
+    <string-array name="jean">
+        <item>루즈핏 청바지</item>
+        <item>기본핏 청바지</item>
+        <item>청반바지</item>
+        <item>워싱 청바지</item>
+        <item>워싱 청반바지</item>
+    </string-array>
+    
+    <string-array name="slacks">
+        <item>루즈핏 슬랙스</item>
+        <item>기본핏 슬랙스</item>
+        <item>슬랙스 반바지</item>
+    </string-array>
+    
+    <string-array name="linen">
+        <item>기본핏 린넨바지</item>
+        <item>루즈핏 린넨바지</item>
+        <item>린넨 반바지</item>
+    </string-array>
+
+
+</resources>

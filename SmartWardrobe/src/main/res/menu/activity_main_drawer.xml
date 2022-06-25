@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_main"
+            android:icon="@drawable/ic_menu_main"
+            android:title="메인화면" />
+        <item
+            android:id="@+id/nav_myWardrobe"
+            android:icon="@drawable/ic_menu_tshirt"
+            android:title="내 옷장" />
+        <item
+            android:id="@+id/nav_myCodiset"
+            android:icon="@drawable/ic_all_heart"
+            android:title="내 코디셋" />
+        <item
+            android:id="@+id/nav_recommend"
+            android:icon="@drawable/ic_menu_human"
+            android:title="코디셋 추천" />
+        <item
+            android:id="@+id/nav_calendar"
+            android:icon="@drawable/ic_menu_calendar"
+            android:title="월간 코디 현황" />
+        <item
+            android:id="@+id/nav_board"
+            android:icon="@drawable/ic_menu_peoples"
+            android:title="코디 추천 게시판" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="환경설정" />
+        <item
+            android:id="@+id/nav_login"
+            android:icon="@drawable/logout"
+            android:title="로그아웃" />
+
+
+
+
+    </group>
+</menu>

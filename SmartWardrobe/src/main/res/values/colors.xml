@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#212121</color>
+    <color name="colorPrimaryDark">#35343D</color>
+    <color name="colorAccent">#d50000</color>
+
+    <!-- 옷 색상 (색 이름은 ClothesHashMap에서 확인가능)-->
+    <color name="color_1">#FF744D1E</color>
+    <color name="color_2">#FF4A5321</color>
+    <color name="color_3">#00000000</color> <!--교체필요-->
+    <color name="color_4">#FFFFFFFF</color>
+    <color name="color_5">#FF808080</color>
+    <color name="color_6">#FFCBB076</color>
+    <color name="color_7">#FFCDE6FF</color>
+    <color name="color_8">#FFFF0000</color>
+    <color name="color_9">#FF008000</color>
+    <color name="color_10">#FF1A2E6B</color>
+    <color name="color_11">#FF3EB489</color>
+    <color name="color_12">#FFFECC00</color>
+    <color name="color_13">#FF000000</color>
+    <color name="color_14">#FF9B713F</color> <!--null-->
+    <color name="color_15">#FFFFC0CB</color>
+    <color name="color_16">#FF005CAA</color>
+    <color name="color_17">#FFFFA500</color>
+    <color name="color_18">#FF96358C</color>
+    <color name="color_19">#FFFFFFF0</color>
+    <color name="color_20">#FF36454F</color>
+    <color name="color_21">#FF5F021F</color>
+    <color name="color_22">#00000000</color>
+    <color name="color_23">#00000000</color>
+    <color name="color_24">#00000000</color>
+    <color name="color_25">#00000000</color>
+</resources>
